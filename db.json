@@ -1,7 +1,5 @@
 {
     "ingredients": [
-        {
-            "fruits": [
                 {
                     "id": 0,
                     "name": {
@@ -299,7 +297,5 @@
                     "category": "Fruits",
                     "image": "https://beeimg.com/images/t16813287102.png"
                 }
-            ]
-        }
     ]
 }
