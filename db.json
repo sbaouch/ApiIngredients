@@ -1,0 +1,305 @@
+{
+    "ingredients": [
+        {
+            "fruits": [
+                {
+                    "id": 0,
+                    "name": {
+                        "en": "Apple",
+                        "es": "Manzana"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/a68643223144.png"
+                },
+                {
+                    "id": 1,
+                    "name": {
+                        "en": "Strawberry",
+                        "es": "Fresa"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/h36861497844.png"
+                },
+                {
+                    "id": 2,
+                    "name": {
+                        "en": "Lychee",
+                        "es": "Lichi"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/p99198272064.png"
+                },
+                {
+                    "id": 3,
+                    "name": {
+                        "en": "Peach",
+                        "es": "Durazno"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/e29689409353.png"
+                },
+                {
+                    "id": 4,
+                    "name": {
+                        "en": "Fig",
+                        "es": "Higo"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/h38403074044.png"
+                },
+                {
+                    "id": 5,
+                    "name": {
+                        "en": "Banana",
+                        "es": "Banana"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/m50358635961.png"
+                },
+                {
+                    "id": 6,
+                    "name": {
+                        "en": "Watermelon",
+                        "es": "Sandía"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/b97081789241.png"
+                },
+                {
+                    "id": 7,
+                    "name": {
+                        "en": "Blackberry",
+                        "es": "Mora"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/p33263674022.png"
+                },
+                {
+                    "id": 8,
+                    "name": {
+                        "en": "Apricot",
+                        "es": "Albaricoque"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/x95435695211.png"
+                },
+                {
+                    "id": 9,
+                    "name": {
+                        "en": "Avocado",
+                        "es": "Aguacate"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/s17888434053.png"
+                },
+                {
+                    "id": 10,
+                    "name": {
+                        "en": "Passion Fruit",
+                        "es": "Maracuyá"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/r18018727513.png"
+                },
+                {
+                    "id": 11,
+                    "name": {
+                        "en": "Melon",
+                        "es": "Melón"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/g32298685664.png"
+                },
+                {
+                    "id": 12,
+                    "name": {
+                        "en": "Raspberry",
+                        "es": "Frambuesa"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/g32298685664.png"
+                },
+                {
+                    "id": 13,
+                    "name": {
+                        "en": "Nectarine",
+                        "es": "Nectarina"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/p41872165053.png"
+                },
+                {
+                    "id": 14,
+                    "name": {
+                        "en": "Pomegranate",
+                        "es": "Granada"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/s20438620744.png"
+                },
+                {
+                    "id": 15,
+                    "name": {
+                        "en": "Plum",
+                        "es": "Ciruela"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/w80057791592.png"
+                },
+                {
+                    "id": 16,
+                    "name": {
+                        "en": "Grapes",
+                        "es": "Uvas"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/x94248831223.png"
+                },
+                {
+                    "id": 17,
+                    "name": {
+                        "en": "Pear",
+                        "es": "Pera"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/c27056666881.png"
+                },
+                {
+                    "id": 18,
+                    "name": {
+                        "en": "Papaya",
+                        "es": "Papaya"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/e91087512743.png"
+                },
+                {
+                    "id": 19,
+                    "name": {
+                        "en": "Mango",
+                        "es": "Mango"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/g12071891324.png"
+                },
+                {
+                    "id": 20,
+                    "name": {
+                        "en": "Coconut",
+                        "es": "Coco"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/r87568040662.png"
+                },
+                {
+                    "id": 21,
+                    "name": {
+                        "en": "Blueberry",
+                        "es": "Arándano"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/s53314872343.png"
+                },
+                {
+                    "id": 22,
+                    "name": {
+                        "en": "Cherry",
+                        "es": "Cereza"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/x98939372994.png"
+                },
+                {
+                    "id": 23,
+                    "name": {
+                        "en": "Yellow Pitaya",
+                        "es": "Pitahaya amarilla"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/y30620400194.png"
+                },
+                {
+                    "id": 24,
+                    "name": {
+                        "en": "Pineapple",
+                        "es": "Piña"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/z10627014593.png"
+                },
+                {
+                    "id": 25,
+                    "name": {
+                        "en": "Dragon Fruit",
+                        "es": "Pitahaya"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/c87231943922.png"
+                },
+                {
+                    "id": 26,
+                    "name": {
+                        "en": "Orange",
+                        "es": "Naranja"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/d42828749102.png"
+                },
+                {
+                    "id": 27,
+                    "name": {
+                        "en": "Kiwi",
+                        "es": "Kiwi"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/b34861340154.png"
+                },
+                {
+                    "id": 28,
+                    "name": {
+                        "en": "Cantaloupe",
+                        "es": "Melón cantalupo"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/o04692668534.png"
+                },
+                {
+                    "id": 29,
+                    "name": {
+                        "en": "Grapefruit",
+                        "es": "Toronja"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/z30275796054.png"
+                },
+                {
+                    "id": 30,
+                    "name": {
+                        "en": "Soursop",
+                        "es": "Guanábana"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/a06389097204.png"
+                },
+                {
+                    "id": 31,
+                    "name": {
+                        "en": "Persimmon",
+                        "es": "Caqui"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/z03344113934.png"
+                },
+                {
+                    "id": 32,
+                    "name": {
+                        "en": "Prickly pear",
+                        "es": "Tuna"
+                    },
+                    "category": "Fruits",
+                    "image": "https://beeimg.com/images/t16813287102.png"
+                }
+            ]
+        }
+    ]
+}
