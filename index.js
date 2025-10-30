@@ -10,11 +10,17 @@ app.get("/", (req, res) => {
 });
 
 // Endpoint para devolver el JSON
-app.get("/ingredients", (req, res) => {
-  const data = fs.readFileSync("./db.json", "utf-8");
-  const jsonData = JSON.parse(data);
-  res.json(jsonData.ingredientes);
-});
+app.get("/ingredientes", async (req, res) => {
+    try {
+      const filePath = path.join(__dirname, "db.json");
+      const data = await fs.readFile(filePath, "utf-8");
+      const jsonData = JSON.parse(data);
+      res.json(jsonData.ingredientes);
+    } catch (error) {
+      console.error("Error leyendo db.json:", error);
+      res.status(500).json({ error: "Error interno del servidor" });
+    }
+  });
 
 app.listen(PORT, () => {
   console.log(`Servidor escuchando en puerto ${PORT}`);
