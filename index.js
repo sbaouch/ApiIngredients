@@ -1,30 +1,31 @@
 import express from "express";
-import fs from "fs";
+import fs from "fs/promises";
+import path from "path";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Endpoint raíz
 app.get("/", (req, res) => {
-  res.send("API ingredients activa 🍅");
+  console.log("GET /");
+  res.send("API de ingredientes activa 🍅");
 });
 
-// Endpoint para devolver el JSON
 app.get("/ingredientes", async (req, res) => {
-    try {
-      const filePath = path.join(__dirname, "db.json");
-      const data = await fs.readFile(filePath, "utf-8");
-      const jsonData = JSON.parse(data);
-      res.json(jsonData.ingredientes);
-    } catch (error) {
-      console.error("Error leyendo db.json:", error);
-      res.status(500).json({ error: "Error interno del servidor" });
-    }
-  });
+  console.log("GET /ingredientes");
+
+  try {
+    const filePath = path.join(process.cwd(), "db.json");
+    const data = await fs.readFile(filePath, "utf-8");
+    const jsonData = JSON.parse(data);
+
+    res.json(jsonData.ingredients);
+  } catch (error) {
+    res.status(500).json({ error: "Error interno del servidor" });
+  }
+});
 
 app.listen(PORT, () => {
-  console.log(`Servidor escuchando en puerto ${PORT}`);
+  console.log(`✅ Servidor escuchando en http://localhost:${PORT}`);
 });
 
-// Export necesario para Vercel
 export default app;
