@@ -1,18 +1,17 @@
 {
-  "name": "apiingredients",
+  "name": "mi-api-ingredientes",
   "version": "1.0.0",
-  "description": "My Ingredients Api",
+  "description": "API simple de ingredientes para Vercel",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "(https://github.com/sbaouch/ApiIngredients.git)"
+    "url": "https://github.com/sbaouch/ApiIngredients.git"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "json-server": "^1.0.0-beta.3"
+    "express": "^4.19.2"
   }
 }
